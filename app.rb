@@ -67,6 +67,10 @@ class Stachehub < Sinatra::Base
       end
       octocat = webpage.css('img[alt=Octocat]')
       octocat.last['src'] = '/images/octostache.png'
+
+      octonaut = webpage.css('img[alt=Octonaut]')
+      octonaut.last['src'] = '/images/parallax_octocat_stache.png'
+
       webpage.children.last.add_next_sibling(<<-GA)
       <script type="text/javascript">
 
