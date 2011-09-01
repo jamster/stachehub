@@ -10,11 +10,11 @@ require 'open-uri'
 
 class Stachehub < Sinatra::Base
   register Sinatra::Async
-  LOGGER = logger = Logger.new('log/app.log')
-
-  def logger
-    LOGGER
-  end
+  # LOGGER = logger = Logger.new('log/app.log')
+  # 
+  # def logger
+  #   LOGGER
+  # end
   
   set :logging, :true
   set :raise_errors, Proc.new { false }
