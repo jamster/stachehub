@@ -3,3 +3,8 @@
 [http://stachehub.heroku.com/](http://stachehub.heroku.com/)
 
 A blend of Github, facial recognition, mustaches, EventMachine, Sinatra, (Photoshop for those who can't be mustached) and love.  
+
+## Description
+
+While waiting for Rackspace to provision some servers, and get some database migrations going, I had a bit of time to kill.  And since Patrick Tulskie recently introduced me to Mustachify.me, and his Campfire Bot, Baxter's, recent ability to mustachify anyone, I felt it was my duty to go ahead and use some of my skills to mustachify the web. And since, I love github, and had recently seen their /about page as a collection of faces, I had to mustachify them all.  
+
