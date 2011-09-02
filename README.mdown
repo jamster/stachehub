@@ -10,8 +10,8 @@ While waiting for Rackspace to provision some servers, and get some database mig
 
 ## Credits:
 
-* [Github](http://github.com) for thir faces
-* [afeld/mustachio](https://github.com/feld/mustachio) for the musatches
+* [Github](http://github.com) for their faces
+* [afeld/mustachio](https://github.com/feld/mustachio) for the mustaches
 * [raggi/async_sinatra](https://github.com/raggi/async_sinatra) for making things awesome
 * [Event Machine](https://github.com/eventmachine/eventmachine) for being fast
 * [igrigorik/em-http-request](https://github.com/igrigorik/em-http-request) for all the cool things the author makes
