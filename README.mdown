@@ -1,0 +1,3 @@
+# Stachehub
+
+A blend of Github, facial recognition, mustaches, EventMachine, Sinatra, (Photoshop for those who can't be mustached) and love.  
