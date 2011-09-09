@@ -60,6 +60,10 @@ class Stachehub < Sinatra::Base
           'images/tim_clem.png'
         when 'tanoku'
           'images/cat_stache.png'
+        when 'jina'
+          'images/nyancat.png'
+        when 'tekkub'
+          'images/receive_stache.png'
         else
           "http://mustachify.me/magickly?mustachify=true&src=#{gravatar['src']}"
         end
