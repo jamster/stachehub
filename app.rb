@@ -61,7 +61,7 @@ class Stachehub < Sinatra::Base
         when 'tanoku'
           'images/cat_stache.png'
         when 'jina'
-          'images/nyancat.png'
+          'images/jina.png'
         when 'tekkub'
           'images/receive_stache.png'
         else
