@@ -27,13 +27,13 @@ class Stachehub < Sinatra::Base
   #   'whoa'
   # end
   aget '/' do
-    about_request = EM::HttpRequest.new("https://github.com/about").get
+    about_request = EM::HttpRequest.new("https://github.com/about/team").get
     about_request.callback do |http|
       webpage = Nokogiri::HTML(http.response)
       webpage.css("body").children.first.add_previous_sibling(<<-FORK)
       <a href="http://github.com/jamster/stachehub"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub"></a>
       FORK
-      webpage.css('img[alt=Gravatar]').each do |gravatar|
+      webpage.css('div.employee_container a img').each do |gravatar|
         # puts gravatar.parent['href']
         x = gravatar.parent['href'].gsub(/\//, '')
         puts gravatar.parent['href']
